@@ -1,4 +1,4 @@
-# MidiPlayerJS
+# Streetwear AWS S3 Bucket
 
 ## Tech Stack
 
@@ -8,7 +8,15 @@
 
 ## Project Description 📝
 
-The
+How to set up an Amazon S3 bucket that hosts (JSON) data. Users can make an API request and expect to receive the JSON data from the S3 bucket remotely.
+
+| Application using the S3 Bucket
+:-:
+<img src="https://github.com/quyencodes/s3-streetwear/assets/104607182/c50999fd-ede2-4cc6-adde-14437c4346af" width="400">|
+
+| Successful Postman Request
+:-:
+<img src="https://github.com/quyencodes/s3-streetwear/assets/104607182/06630da1-1abc-4fec-b9d2-9c4b351a37af" width="600">|
 
 ## Getting Started 🧑‍🍳
 
@@ -41,7 +49,7 @@ The
 ]
 ```
 
-8. Great, you should be able to access the S3 bucket via an API request. If you cannot, here are some resources:
+Great, you should be able to access the S3 bucket via an API request. If you cannot, here are some resources:
 
 - <a href="https://repost.aws/knowledge-center/read-access-objects-s3-bucket" rel="noopener noreferrer">https://repost.aws/knowledge-center/read-access-objects-s3-bucket</a>
 - <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html?icmpid=docs_amazons3_console" rel="noopener noreferrer">https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html?icmpid=docs_amazons3_console</a>
